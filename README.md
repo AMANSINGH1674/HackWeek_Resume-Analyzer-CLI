@@ -1,6 +1,8 @@
 # Resume Analyzer CLI & Web App
 
-A Python tool to analyze PDF resumes for key technical skills and provide improvement suggestions. Use it as a command-line tool or a Streamlit web app.
+**Try it instantly online:** [resumeanalyzercli-aman.streamlit.app](https://resumeanalyzercli-aman.streamlit.app/)
+
+A Python tool to analyze PDF resumes for key technical skills and provide improvement suggestions. Use it as a command-line tool, a Streamlit web app locally, or try it online.
 
 ## Features
 - Extracts text from PDF resumes
@@ -8,7 +10,7 @@ A Python tool to analyze PDF resumes for key technical skills and provide improv
 - Categorizes skills (Programming, Web, Cloud, Data Science, etc.)
 - Suggests improvements based on missing or underrepresented keywords
 - Provides a skill coverage score
-- Usable via CLI or Streamlit web interface
+- Usable via CLI, Streamlit web interface, or online
 
 ## Setup
 1. Clone this repository:
@@ -23,14 +25,18 @@ A Python tool to analyze PDF resumes for key technical skills and provide improv
 
 ## Usage
 
+### Online (Recommended)
+No installation needed! Just visit:
+[https://resumeanalyzercli-aman.streamlit.app/](https://resumeanalyzercli-aman.streamlit.app/)
+
 ### Command-Line Interface (CLI)
 Run the analyzer on a PDF resume:
 ```sh
 python resume_analyzer.py path/to/your_resume.pdf
 ```
 
-### Streamlit Web App
-Launch the web interface:
+### Streamlit Web App (Local)
+Launch the web interface locally:
 ```sh
 streamlit run resume_analyzer.py
 ```
