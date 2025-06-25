@@ -32,8 +32,11 @@ No installation needed! Just visit:
 ### Command-Line Interface (CLI)
 Run the analyzer on a PDF resume:
 ```sh
-python resume_analyzer.py path/to/your_resume.pdf
+python resume_analyzer_cli.py "/path/to/your resume.pdf"
 ```
+
+- Make sure to wrap the file path in quotes if it contains spaces.
+- The CLI will print skill mentions, categories, score, and suggestions directly to your terminal.
 
 ### Streamlit Web App (Local)
 Launch the web interface locally:
